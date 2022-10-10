@@ -33,7 +33,7 @@ const Login = () => {
         method: "POST",
         url: "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword",
         params: {
-          key: "AIzaSyCw769QXW3kj3YcASXg_SbeyPmi_ywaomI",
+          key: "[**Firebase-key**]",
         },
         data: {
           email,

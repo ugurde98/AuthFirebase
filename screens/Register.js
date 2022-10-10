@@ -32,7 +32,7 @@ const Register = () => {
       method: "POST",
       url: "https://identitytoolkit.googleapis.com/v1/accounts:signUp",
       params: {
-        key: "AIzaSyCw769QXW3kj3YcASXg_SbeyPmi_ywaomI",
+        key: "[**Firebase-key**]",
       },
       data: {
         email,
@@ -44,7 +44,7 @@ const Register = () => {
           method: "POST",
           url: "https://identitytoolkit.googleapis.com/v1/accounts:update",
           params: {
-            key: "AIzaSyCw769QXW3kj3YcASXg_SbeyPmi_ywaomI",
+            key: "[**Firebase-key**]",
           },
           data: {
             idToken: res.data.idToken,
